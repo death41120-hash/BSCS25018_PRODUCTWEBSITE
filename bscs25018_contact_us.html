@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bscs25018_lab04.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="bscs25018_home.html">Home</a>
+        <a href="bscs25018_products.html">Products</a>
+        <a href="bscs25018_about_us.html">About Us</a>
+        <a href="bscs25018_contact_us.html">Contact Us</a>
+    </div>
+
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Cell: +92 328 4849551</p>
+        <p>Email: <a href="mailto:bscs25018@itu.edu.pk">bscs25018@itu.edu.pk</a></p>
+        <p>Location: Lahore, Pakistan</p>
+
+        <form name="Email" action="/bscs25018_home.html" onsubmit="return validateform()">
+            <label for="email">E-Mail:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/1D3rgLopKJ/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Facebook" width="30">
+            </a>
+            <a href="https://www.instagram.com/itz_1am?utm_source=qr" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYn5JGmP7QniERor6LeriDO82uBuzEorSa-g&s" alt="Instagram" width="30">
+            </a>
+            <a href="https://www.linkedin.com/in/abdullah-ali-26b9b9383/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="LinkedIn" width="30">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> ILLICIT. All rights reserved.</p>
+    </footer>
+
+    <script src="bscs25018_script.js"></script>
+</body>
+</html>
